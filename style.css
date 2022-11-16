@@ -1,0 +1,239 @@
+/*Cor das letras marrom: #a36421;
+Cor do texto verde: */
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 0.9rem;
+}
+
+.backg { 
+  background-color: #F4F2EC;
+}
+
+header {
+    background-image: url(imgs/fundo.png);
+    height: 11rem;
+    position: relative;
+    z-index: 2;
+}
+
+.container {
+    margin: auto;
+    width: 1100px;
+}
+
+#logo {
+    background: url(imgs/logo.png) no-repeat center left;
+    display: flex;
+    height: 1.5rem;
+    justify-content: flex-end;
+    width: 38rem;
+    margin-left: 0.8rem;
+    margin-top: -0.5rem;
+    
+}
+
+#headerOrg1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#headerOrg2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.7rem; 
+}
+
+#ulHeader {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+
+}
+
+.listaHeader {
+    margin-left: 1.5rem;
+}
+
+
+.imgMuseu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -5.1rem;
+    position: relative;
+    z-index: 3;
+}
+
+#imgEntrada {
+    padding-right: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #b16c22;
+}
+
+h4 {
+    color: #176d02
+}
+
+#videoExp {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    padding-right: 4rem;
+    
+}
+
+#video {
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+#mapa {
+    width: 21rem;
+    height: 14rem;
+    padding: 1rem 0rem 2rem 0rem;
+}
+
+#mapaHist {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    margin-left: -2rem;
+}
+
+.mainMain {
+    display: flex;
+    flex-direction: row;
+    margin-left: 11.5rem;
+}
+
+#ulExp {
+    margin-left: 2.7rem;
+    padding-top: 1rem;
+}
+
+.liExp {
+    padding-top: 0.2rem;
+}
+
+#textoParag {
+    width: 22rem;
+    line-height: 1.4rem;
+    padding-top: 0.8rem;
+}
+
+.sectVisita {
+    background-color: #CDC8B1;
+    width: 24.4rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    margin-left: 3.6rem;
+    
+}
+
+.visitaFotos {
+    padding-top: 1rem;
+    margin-left: -1.6rem;
+}
+
+#text {
+    width: 3rem;
+    border: 0.5px solid rgba(150, 141, 132, 0.692);
+    width: 2.5rem;
+    height: 1.7rem;
+    padding: 0.4rem;
+}
+
+#date {
+    border: 0.5px solid rgba(150, 141, 132, 0.692);
+    padding: 0.2rem;
+}
+
+#button {
+    background-color: #9b8f6a;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+    height: 100%;
+    padding: 0.8rem;
+}
+
+#façaVisita {
+    color: #835019;
+    padding-bottom: 0.6rem;
+    font-size: 1rem;
+}
+
+#galeria {
+    background-color: #EBE7DD;
+    width: 24.41rem;
+    height: 26rem;
+    margin-left: 3.6rem;
+}
+
+#galeriaNome {
+    color: #835019;
+    padding-bottom: 0.6rem;
+    padding-top: 1rem;
+    padding-left: 1.8rem;
+    font-size: 1rem;
+}
+
+.apenasFotos {
+    padding-left: 3.5rem;
+}
+
+
+.img1 {
+    position: absolute;
+    z-index: 3;
+    transform: translate(17px, 20px)
+    
+}
+
+.img2 {
+    position: absolute;
+    z-index: 3;
+    transform: translate(17px, 20px)
+}
+
+.img3 {
+    position: absolute;
+    z-index: 3;
+    transform: translate(-239px, 155px)
+}
+
+.img4 {
+    position: absolute;
+    z-index: 3;
+    transform: translate(17px, 20px) 
+}
+
+
+.ulFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.liFooter {
+    padding-left: 1.5rem;
+}
+
+#paragFooter {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+
